@@ -60,10 +60,11 @@ detailButtons.forEach((btn) => {
     feather.replace(); // refresh icon
   });
 });
-
+if (closeModal && modal) {
 closeModal.addEventListener("click", () => {
   modal.classList.remove("active");
 });
+}
 
 // grating
 
